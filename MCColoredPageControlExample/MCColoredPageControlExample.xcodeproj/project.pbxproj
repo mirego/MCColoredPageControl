@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F3FED217022A58000AFF68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F3FED117022A58000AFF68 /* UIKit.framework */; };
+		09F3FED417022A58000AFF68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F3FED317022A58000AFF68 /* Foundation.framework */; };
+		09F3FED617022A58000AFF68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F3FED517022A58000AFF68 /* CoreGraphics.framework */; };
+		09F3FEDC17022A58000AFF68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FEDA17022A58000AFF68 /* InfoPlist.strings */; };
+		09F3FEDE17022A58000AFF68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F3FEDD17022A58000AFF68 /* main.m */; };
+		09F3FEE217022A58000AFF68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F3FEE117022A58000AFF68 /* AppDelegate.m */; };
+		09F3FEE417022A58000AFF68 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FEE317022A58000AFF68 /* Default.png */; };
+		09F3FEE617022A58000AFF68 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FEE517022A58000AFF68 /* Default@2x.png */; };
+		09F3FEE817022A58000AFF68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F3FEE717022A58000AFF68 /* Default-568h@2x.png */; };
+		09F3FEF117022A6D000AFF68 /* MCColoredPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F3FEF017022A6D000AFF68 /* MCColoredPageControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09F3FECE17022A58000AFF68 /* MCColoredPageControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCColoredPageControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F3FED117022A58000AFF68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09F3FED317022A58000AFF68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09F3FED517022A58000AFF68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09F3FED917022A58000AFF68 /* MCColoredPageControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCColoredPageControlExample-Info.plist"; sourceTree = "<group>"; };
+		09F3FEDB17022A58000AFF68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09F3FEDD17022A58000AFF68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09F3FEDF17022A58000AFF68 /* MCColoredPageControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCColoredPageControlExample-Prefix.pch"; sourceTree = "<group>"; };
+		09F3FEE017022A58000AFF68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09F3FEE117022A58000AFF68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09F3FEE317022A58000AFF68 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09F3FEE517022A58000AFF68 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09F3FEE717022A58000AFF68 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09F3FEEF17022A6D000AFF68 /* MCColoredPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCColoredPageControl.h; sourceTree = "<group>"; };
+		09F3FEF017022A6D000AFF68 /* MCColoredPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCColoredPageControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F3FECB17022A58000AFF68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F3FED217022A58000AFF68 /* UIKit.framework in Frameworks */,
+				09F3FED417022A58000AFF68 /* Foundation.framework in Frameworks */,
+				09F3FED617022A58000AFF68 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F3FEC517022A57000AFF68 = {
+			isa = PBXGroup;
+			children = (
+				09F3FEEE17022A62000AFF68 /* MCColoredPageControl */,
+				09F3FED717022A58000AFF68 /* MCColoredPageControlExample */,
+				09F3FED017022A58000AFF68 /* Frameworks */,
+				09F3FECF17022A58000AFF68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F3FECF17022A58000AFF68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F3FECE17022A58000AFF68 /* MCColoredPageControlExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F3FED017022A58000AFF68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F3FED117022A58000AFF68 /* UIKit.framework */,
+				09F3FED317022A58000AFF68 /* Foundation.framework */,
+				09F3FED517022A58000AFF68 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09F3FED717022A58000AFF68 /* MCColoredPageControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				09F3FEE017022A58000AFF68 /* AppDelegate.h */,
+				09F3FEE117022A58000AFF68 /* AppDelegate.m */,
+				09F3FED817022A58000AFF68 /* Supporting Files */,
+			);
+			path = MCColoredPageControlExample;
+			sourceTree = "<group>";
+		};
+		09F3FED817022A58000AFF68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F3FED917022A58000AFF68 /* MCColoredPageControlExample-Info.plist */,
+				09F3FEDA17022A58000AFF68 /* InfoPlist.strings */,
+				09F3FEDD17022A58000AFF68 /* main.m */,
+				09F3FEDF17022A58000AFF68 /* MCColoredPageControlExample-Prefix.pch */,
+				09F3FEE317022A58000AFF68 /* Default.png */,
+				09F3FEE517022A58000AFF68 /* Default@2x.png */,
+				09F3FEE717022A58000AFF68 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09F3FEEE17022A62000AFF68 /* MCColoredPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				09F3FEEF17022A6D000AFF68 /* MCColoredPageControl.h */,
+				09F3FEF017022A6D000AFF68 /* MCColoredPageControl.m */,
+			);
+			name = MCColoredPageControl;
+			path = ../MCColoredPageControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F3FECD17022A58000AFF68 /* MCColoredPageControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F3FEEB17022A58000AFF68 /* Build configuration list for PBXNativeTarget "MCColoredPageControlExample" */;
+			buildPhases = (
+				09F3FECA17022A58000AFF68 /* Sources */,
+				09F3FECB17022A58000AFF68 /* Frameworks */,
+				09F3FECC17022A58000AFF68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCColoredPageControlExample;
+			productName = MCColoredPageControlExample;
+			productReference = 09F3FECE17022A58000AFF68 /* MCColoredPageControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F3FEC617022A57000AFF68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mirego, Inc.";
+			};
+			buildConfigurationList = 09F3FEC917022A57000AFF68 /* Build configuration list for PBXProject "MCColoredPageControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09F3FEC517022A57000AFF68;
+			productRefGroup = 09F3FECF17022A58000AFF68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F3FECD17022A58000AFF68 /* MCColoredPageControlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F3FECC17022A58000AFF68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F3FEDC17022A58000AFF68 /* InfoPlist.strings in Resources */,
+				09F3FEE417022A58000AFF68 /* Default.png in Resources */,
+				09F3FEE617022A58000AFF68 /* Default@2x.png in Resources */,
+				09F3FEE817022A58000AFF68 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F3FECA17022A58000AFF68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F3FEDE17022A58000AFF68 /* main.m in Sources */,
+				09F3FEE217022A58000AFF68 /* AppDelegate.m in Sources */,
+				09F3FEF117022A6D000AFF68 /* MCColoredPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09F3FEDA17022A58000AFF68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F3FEDB17022A58000AFF68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F3FEE917022A58000AFF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09F3FEEA17022A58000AFF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F3FEEC17022A58000AFF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCColoredPageControlExample/MCColoredPageControlExample-Prefix.pch";
+				INFOPLIST_FILE = "MCColoredPageControlExample/MCColoredPageControlExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09F3FEED17022A58000AFF68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCColoredPageControlExample/MCColoredPageControlExample-Prefix.pch";
+				INFOPLIST_FILE = "MCColoredPageControlExample/MCColoredPageControlExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F3FEC917022A57000AFF68 /* Build configuration list for PBXProject "MCColoredPageControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F3FEE917022A58000AFF68 /* Debug */,
+				09F3FEEA17022A58000AFF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F3FEEB17022A58000AFF68 /* Build configuration list for PBXNativeTarget "MCColoredPageControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F3FEEC17022A58000AFF68 /* Debug */,
+				09F3FEED17022A58000AFF68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F3FEC617022A57000AFF68 /* Project object */;
+}
