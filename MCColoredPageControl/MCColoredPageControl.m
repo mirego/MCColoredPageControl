@@ -10,11 +10,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 @implementation MCColoredPageControl
-{
-    @private
-    NSInteger _currentPage;
-    NSInteger _numberOfPages;
-}
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -41,10 +36,6 @@
     return self;
 }
 
-- (NSInteger)currentPage
-{
-    return _currentPage;
-}
 
 - (void)setCurrentPage:(NSInteger)page
 {
@@ -52,10 +43,6 @@
     [self setNeedsDisplay];
 }
 
-- (NSInteger)numberOfPages
-{
-    return _numberOfPages;
-}
 
 - (void)setNumberOfPages:(NSInteger)pages
 {

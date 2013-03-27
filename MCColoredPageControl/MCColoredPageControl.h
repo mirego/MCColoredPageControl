@@ -18,6 +18,8 @@ typedef enum {
 @interface MCColoredPageControl : UIView
 
 @property (nonatomic, assign) id <ColoredPageControlDelegate> delegate;
+@property (nonatomic, assign) NSInteger currentPage;
+@property (nonatomic, assign) NSInteger numberOfPages;
 @property (nonatomic, strong) UIColor *currentPageDotColor;
 @property (nonatomic, strong) UIColor *otherPageDotColor;
 @property (nonatomic, assign) ColoredPageControlDotType dotType;
