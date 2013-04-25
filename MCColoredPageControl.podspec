@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MCColoredPageControl'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = 'BSD 3-Clause'
   s.summary  = 'Fully customizable alternative to UIPageControl.'
   s.homepage = 'https://github.com/mirego/MCColoredPageControl'
