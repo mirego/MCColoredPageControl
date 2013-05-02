@@ -1,6 +1,6 @@
 # MCColoredPageControl - Fully customizable alternative to UIPageControl
 
-```
+```objective-c
 #import "MCColoredPageControl.h"
 
 - (void)funWithColoredPageControl
@@ -40,7 +40,7 @@ If you're using [`CocoaPods`](http://cocoapods.org/), there's nothing simpler.
 Add the following to your [`Podfile`](http://docs.cocoapods.org/podfile.html)
 and run `pod install`
 
-```
+```ruby
 pod 'MCColoredPageControl', :git => 'https://github.com/mirego/MCColoredPageControl.git'
 ```
 
