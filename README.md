@@ -1,4 +1,6 @@
 # MCColoredPageControl - Fully customizable alternative to UIPageControl
+[![Badge w/ Version](https://cocoapod-badges.herokuapp.com/v/MCColoredPageControl/badge.png)](https://cocoadocs.org/docsets/MCColoredPageControl)
+[![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/MCColoredPageControl/badge.png)](https://cocoadocs.org/docsets/MCColoredPageControl)
 
 ```objective-c
 #import "MCColoredPageControl.h"
